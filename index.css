@@ -1,0 +1,59 @@
+*{
+    margin: 0;padding: 0;
+    color:white ;
+    box-sizing: border-box;
+    
+}
+.main{
+    height: 100%;
+    background-image:url(background.jpg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.playbox{
+    width: 800px;
+    height: 500px;
+    background-color:rgba(245, 205, 131, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    gap: 50px;
+} 
+h1{
+    font-size: 70px;
+    font-family: monospace;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+button{
+    height: 40px;
+    width: 250px;
+    background-color: darkorange;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.exit{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: lightblue;
+}
